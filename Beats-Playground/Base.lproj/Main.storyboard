@@ -9,10 +9,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Lofi View Controller-->
         <scene sceneID="JsW-bs-nPs">
             <objects>
-                <viewController id="Q3X-oz-4Ej" sceneMemberID="viewController">
+                <viewController id="Q3X-oz-4Ej" customClass="LofiViewController" customModule="Beats_Playground" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ENg-Qe-nbE"/>
                         <viewControllerLayoutGuide type="bottom" id="N8b-Jc-VZR"/>
@@ -20,12 +20,28 @@
                     <view key="view" contentMode="scaleToFill" id="Y1N-q8-WYb">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="PYn-Av-s1C">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Syv-bq-VND">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Lofi" id="TtL-Wn-Is4"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="LofiBackgroundImage" destination="PYn-Av-s1C" id="pwK-hz-c44"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="keD-t0-ybw" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="118" y="-571"/>
+            <point key="canvasLocation" x="846" y="-601"/>
         </scene>
         <!--Main View Controller-->
         <scene sceneID="tne-QT-ifu">
@@ -77,18 +93,18 @@
                     </view>
                     <connections>
                         <outlet property="MainBackgroundImage" destination="ruJ-bA-h64" id="C0q-Ra-6F6"/>
-                        <segue destination="9qF-Sb-fXn" kind="show" identifier="goToLofiViewController" id="ZHx-lr-0ib"/>
-                        <segue destination="Q3X-oz-4Ej" kind="show" identifier="goToClassicViewController" id="Eat-9K-phO"/>
+                        <segue destination="9qF-Sb-fXn" kind="show" identifier="goToClassicViewController" id="ZHx-lr-0ib"/>
+                        <segue destination="Q3X-oz-4Ej" kind="show" identifier="goToLofiViewController" id="Eat-9K-phO"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="117.59999999999999" y="123.68815592203899"/>
         </scene>
-        <!--View Controller-->
+        <!--Classic View Controller-->
         <scene sceneID="wP4-Ot-KQO">
             <objects>
-                <viewController id="9qF-Sb-fXn" sceneMemberID="viewController">
+                <viewController id="9qF-Sb-fXn" customClass="ClassicViewController" customModule="Beats_Playground" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ros-Pv-3Wr"/>
                         <viewControllerLayoutGuide type="bottom" id="DBa-ki-D5W"/>
@@ -96,8 +112,24 @@
                     <view key="view" contentMode="scaleToFill" id="J84-I5-Rrg">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="svh-xu-L6P">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <navigationBar contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5iA-2p-YKU">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <items>
+                                    <navigationItem title="Classic" id="H7Y-lQ-Ie1"/>
+                                </items>
+                            </navigationBar>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="ClassicBackgroundImage" destination="svh-xu-L6P" id="gs8-xb-QsA"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uhn-TL-5lP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

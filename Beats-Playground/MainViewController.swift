@@ -11,6 +11,9 @@ import AVFoundation
 
 class MainViewController: UIViewController {
     
+    var audioPlayer = AVAudioPlayer()
+    
+    
     @IBOutlet weak var MainBackgroundImage: UIImageView!
 
     override func viewDidLoad() {

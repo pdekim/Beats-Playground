@@ -11,9 +11,14 @@ import AVFoundation
 
 class LofiViewController: UIViewController {
     
+    @IBOutlet weak var LofiBackgroundImage: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        LofiBackgroundImage.image = #imageLiteral(resourceName: "MainBackground")
         
 
     }

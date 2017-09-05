@@ -11,10 +11,14 @@ import AVFoundation
 
 class ClassicViewController: UIViewController {
     
+    @IBOutlet weak var ClassicBackgroundImage: UIImageView!
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
+        ClassicBackgroundImage.image = #imageLiteral(resourceName: "MainBackground")
         
     }
     
