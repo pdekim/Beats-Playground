@@ -28,6 +28,11 @@ class LofiViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func buttonBackHomeFromLofi(_ sender: Any) {
+        performSegue(withIdentifier: "goToHomeFromLofi", sender: self)
+    }
+    
+    
     
 }
 

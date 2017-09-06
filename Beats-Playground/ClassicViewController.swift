@@ -27,5 +27,8 @@ class ClassicViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func buttonBackHomeFromClassic(_ sender: Any) {
+        performSegue(withIdentifier: "goToHomeFromClassic", sender: self)
+    }
     
 }
