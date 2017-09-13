@@ -16,6 +16,15 @@
 		A6696EE21F5F43920056D9AE /* Beats_PlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6696EE11F5F43920056D9AE /* Beats_PlaygroundUITests.swift */; };
 		A6696EF01F5F4BBB0056D9AE /* LofiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6696EEF1F5F4BBB0056D9AE /* LofiViewController.swift */; };
 		A6696EF21F5F4BC60056D9AE /* ClassicViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6696EF11F5F4BC60056D9AE /* ClassicViewController.swift */; };
+		A680E3A41F68CBB4001BAD07 /* Bass2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A680E3A31F68CBB4001BAD07 /* Bass2.mp3 */; };
+		A680E3B41F68CBEA001BAD07 /* Highhat1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A680E3A81F68CBEA001BAD07 /* Highhat1.mp3 */; };
+		A680E3B71F68CBEA001BAD07 /* Crash1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A680E3AB1F68CBEA001BAD07 /* Crash1.mp3 */; };
+		A680E3BA1F68CBEA001BAD07 /* Highhat2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A680E3AE1F68CBEA001BAD07 /* Highhat2.mp3 */; };
+		A680E3BD1F68CBEA001BAD07 /* Snare1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A680E3B11F68CBEA001BAD07 /* Snare1.mp3 */; };
+		A680E3C11F68CD24001BAD07 /* Crash3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A680E3C01F68CD24001BAD07 /* Crash3.mp3 */; };
+		A680E3C31F68CD2A001BAD07 /* Crash2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A680E3C21F68CD2A001BAD07 /* Crash2.mp3 */; };
+		A680E3C51F68CD96001BAD07 /* Snare2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A680E3C41F68CD96001BAD07 /* Snare2.mp3 */; };
+		A680E3C71F68CEAE001BAD07 /* Bass1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A680E3C61F68CEAE001BAD07 /* Bass1.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +60,15 @@
 		A6696EE31F5F43920056D9AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6696EEF1F5F4BBB0056D9AE /* LofiViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LofiViewController.swift; sourceTree = "<group>"; };
 		A6696EF11F5F4BC60056D9AE /* ClassicViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassicViewController.swift; sourceTree = "<group>"; };
+		A680E3A31F68CBB4001BAD07 /* Bass2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bass2.mp3; sourceTree = "<group>"; };
+		A680E3A81F68CBEA001BAD07 /* Highhat1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Highhat1.mp3; sourceTree = "<group>"; };
+		A680E3AB1F68CBEA001BAD07 /* Crash1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Crash1.mp3; sourceTree = "<group>"; };
+		A680E3AE1F68CBEA001BAD07 /* Highhat2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Highhat2.mp3; sourceTree = "<group>"; };
+		A680E3B11F68CBEA001BAD07 /* Snare1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Snare1.mp3; sourceTree = "<group>"; };
+		A680E3C01F68CD24001BAD07 /* Crash3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Crash3.mp3; sourceTree = "<group>"; };
+		A680E3C21F68CD2A001BAD07 /* Crash2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Crash2.mp3; sourceTree = "<group>"; };
+		A680E3C41F68CD96001BAD07 /* Snare2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Snare2.mp3; sourceTree = "<group>"; };
+		A680E3C61F68CEAE001BAD07 /* Bass1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bass1.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +127,7 @@
 				A6696EC81F5F43920056D9AE /* Assets.xcassets */,
 				A6696ECA1F5F43920056D9AE /* LaunchScreen.storyboard */,
 				A6696ECD1F5F43920056D9AE /* Info.plist */,
+				A680E3A21F68CB57001BAD07 /* Sounds */,
 			);
 			path = "Beats-Playground";
 			sourceTree = "<group>";
@@ -129,6 +148,30 @@
 				A6696EE31F5F43920056D9AE /* Info.plist */,
 			);
 			path = "Beats-PlaygroundUITests";
+			sourceTree = "<group>";
+		};
+		A680E3A21F68CB57001BAD07 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				A680E3BF1F68CC7D001BAD07 /* Classic */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		A680E3BF1F68CC7D001BAD07 /* Classic */ = {
+			isa = PBXGroup;
+			children = (
+				A680E3C61F68CEAE001BAD07 /* Bass1.mp3 */,
+				A680E3A31F68CBB4001BAD07 /* Bass2.mp3 */,
+				A680E3A81F68CBEA001BAD07 /* Highhat1.mp3 */,
+				A680E3AE1F68CBEA001BAD07 /* Highhat2.mp3 */,
+				A680E3AB1F68CBEA001BAD07 /* Crash1.mp3 */,
+				A680E3C21F68CD2A001BAD07 /* Crash2.mp3 */,
+				A680E3C01F68CD24001BAD07 /* Crash3.mp3 */,
+				A680E3B11F68CBEA001BAD07 /* Snare1.mp3 */,
+				A680E3C41F68CD96001BAD07 /* Snare2.mp3 */,
+			);
+			name = Classic;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,9 +284,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A680E3BD1F68CBEA001BAD07 /* Snare1.mp3 in Resources */,
 				A6696ECC1F5F43920056D9AE /* LaunchScreen.storyboard in Resources */,
+				A680E3C31F68CD2A001BAD07 /* Crash2.mp3 in Resources */,
+				A680E3B71F68CBEA001BAD07 /* Crash1.mp3 in Resources */,
+				A680E3BA1F68CBEA001BAD07 /* Highhat2.mp3 in Resources */,
 				A6696EC91F5F43920056D9AE /* Assets.xcassets in Resources */,
+				A680E3C51F68CD96001BAD07 /* Snare2.mp3 in Resources */,
+				A680E3C11F68CD24001BAD07 /* Crash3.mp3 in Resources */,
+				A680E3A41F68CBB4001BAD07 /* Bass2.mp3 in Resources */,
 				A6696EC71F5F43920056D9AE /* Main.storyboard in Resources */,
+				A680E3C71F68CEAE001BAD07 /* Bass1.mp3 in Resources */,
+				A680E3B41F68CBEA001BAD07 /* Highhat1.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,6 +574,7 @@
 				A6696EE81F5F43920056D9AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6696EE91F5F43920056D9AE /* Build configuration list for PBXNativeTarget "Beats-PlaygroundTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +583,7 @@
 				A6696EEB1F5F43920056D9AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A6696EEC1F5F43920056D9AE /* Build configuration list for PBXNativeTarget "Beats-PlaygroundUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +592,7 @@
 				A6696EEE1F5F43920056D9AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

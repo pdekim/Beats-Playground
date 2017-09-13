@@ -11,6 +11,9 @@ import AVFoundation
 
 class ClassicViewController: UIViewController {
     
+    var audioPlayer = AVAudioPlayer()
+    
+    
     @IBOutlet weak var ClassicBackgroundImage: UIImageView!
     
     
@@ -30,5 +33,28 @@ class ClassicViewController: UIViewController {
     @IBAction func buttonBackHomeFromClassic(_ sender: Any) {
         performSegue(withIdentifier: "goToHomeFromClassic", sender: self)
     }
+    
+
+    @IBAction func classicBeatPadBass(_ sender: UIButton) {
+        if sender.tag == 1
+        {
+
+        
+        }
+        if sender.tag == 2
+        {
+            
+        }
+        if sender.tag == 3
+        {
+            
+        }
+    }
+    
+    
+
+    
+        
+    
     
 }
