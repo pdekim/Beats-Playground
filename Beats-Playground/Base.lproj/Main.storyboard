@@ -257,18 +257,27 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.4800239187447144" green="0.46381205513083573" blue="0.50633500647668395" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="classicBeatPadOther:" destination="9qF-Sb-fXn" eventType="touchUpInside" id="gGk-8b-dVt"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="11" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mBt-rq-neN" customClass="BeatPadDesign" customModule="Beats_Playground" customModuleProvider="target">
                                 <rect key="frame" x="138" y="121" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.4800239187447144" green="0.46381205513083573" blue="0.50633500647668395" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="classicBeatPadOther:" destination="9qF-Sb-fXn" eventType="touchUpInside" id="4FE-r8-PLH"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lbO-BS-ETs" customClass="BeatPadDesign" customModule="Beats_Playground" customModuleProvider="target">
                                 <rect key="frame" x="30" y="121" width="100" height="100"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.4800239187447144" green="0.46381205513083573" blue="0.50633500647668395" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="classicBeatPadOther:" destination="9qF-Sb-fXn" eventType="touchUpInside" id="J7g-nz-bX1"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="9" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qmm-8t-ScL" customClass="BeatPadDesign" customModule="Beats_Playground" customModuleProvider="target">
                                 <rect key="frame" x="245" y="229" width="100" height="100"/>
@@ -287,6 +296,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.4800239187447144" green="0.46381205513083573" blue="0.50633500647668395" alpha="0.69999999999999996" colorSpace="custom" customColorSpace="displayP3"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <action selector="classicBeatPadCrash:" destination="9qF-Sb-fXn" eventType="touchUpInside" id="8RN-Oi-kBu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="6" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sO2-lC-j1b" customClass="BeatPadDesign" customModule="Beats_Playground" customModuleProvider="target">
                                 <rect key="frame" x="245" y="337" width="100" height="100"/>

@@ -53,10 +53,61 @@ class ClassicViewController: UIViewController {
     
     
     @IBAction func classicBeatPadSnare(_ sender: UIButton) {
-    }
+    
+        if sender.tag == 4
+        {
+    
+    
+        }
+        if sender.tag == 5
+        {
+    
+        }
+        if sender.tag == 6
+        {
+    
+        }
 
+    }
     
+    
+    @IBAction func classicBeatPadCrash(_ sender: UIButton) {
         
+        if sender.tag == 7
+        {
+            
+        }
+        if sender.tag == 8
+        {
+            
+        }
+        if sender.tag == 9
+        {
+            
+        }
+    }
     
     
+    
+    @IBAction func classicBeatPadOther(_ sender: UIButton) {
+        
+        if sender.tag == 10
+        {
+            
+        }
+        if sender.tag == 11
+        {
+            
+        }
+        if sender.tag == 12
+        {
+            
+        }
+    }
+    
+    
+    
+    
+    
+
 }
