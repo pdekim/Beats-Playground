@@ -9,7 +9,7 @@
 import UIKit
 
 // interface builder
-@IBDesignable class ButtonDesign: BounceButton {
+@IBDesignable class BeatPadDesign: BounceButton {
 
     @IBInspectable var borderWidth: CGFloat = 1.0 {
         didSet {
