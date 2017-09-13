@@ -25,6 +25,8 @@
 		A680E3C31F68CD2A001BAD07 /* Crash2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A680E3C21F68CD2A001BAD07 /* Crash2.mp3 */; };
 		A680E3C51F68CD96001BAD07 /* Snare2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A680E3C41F68CD96001BAD07 /* Snare2.mp3 */; };
 		A680E3C71F68CEAE001BAD07 /* Bass1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A680E3C61F68CEAE001BAD07 /* Bass1.mp3 */; };
+		A680E3CA1F68D9B8001BAD07 /* BounceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A680E3C91F68D9B8001BAD07 /* BounceButton.swift */; };
+		A680E3CD1F68DDEF001BAD07 /* ButtonDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = A680E3CC1F68DDEF001BAD07 /* ButtonDesign.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 		A680E3C21F68CD2A001BAD07 /* Crash2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Crash2.mp3; sourceTree = "<group>"; };
 		A680E3C41F68CD96001BAD07 /* Snare2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Snare2.mp3; sourceTree = "<group>"; };
 		A680E3C61F68CEAE001BAD07 /* Bass1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bass1.mp3; sourceTree = "<group>"; };
+		A680E3C91F68D9B8001BAD07 /* BounceButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BounceButton.swift; sourceTree = "<group>"; };
+		A680E3CC1F68DDEF001BAD07 /* ButtonDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ButtonDesign.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 		A6696EB51F5F43920056D9AE = {
 			isa = PBXGroup;
 			children = (
+				A680E3CB1F68DDBA001BAD07 /* IBDesignables */,
+				A680E3C81F68D9A0001BAD07 /* Custom Controls */,
 				A6696EC01F5F43920056D9AE /* Beats-Playground */,
 				A6696ED51F5F43920056D9AE /* Beats-PlaygroundTests */,
 				A6696EE01F5F43920056D9AE /* Beats-PlaygroundUITests */,
@@ -172,6 +178,24 @@
 				A680E3C41F68CD96001BAD07 /* Snare2.mp3 */,
 			);
 			name = Classic;
+			sourceTree = "<group>";
+		};
+		A680E3C81F68D9A0001BAD07 /* Custom Controls */ = {
+			isa = PBXGroup;
+			children = (
+				A680E3C91F68D9B8001BAD07 /* BounceButton.swift */,
+			);
+			name = "Custom Controls";
+			path = "Beats-Playground";
+			sourceTree = "<group>";
+		};
+		A680E3CB1F68DDBA001BAD07 /* IBDesignables */ = {
+			isa = PBXGroup;
+			children = (
+				A680E3CC1F68DDEF001BAD07 /* ButtonDesign.swift */,
+			);
+			name = IBDesignables;
+			path = "Beats-Playground";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -321,7 +345,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6696EC41F5F43920056D9AE /* MainViewController.swift in Sources */,
+				A680E3CA1F68D9B8001BAD07 /* BounceButton.swift in Sources */,
 				A6696EC21F5F43920056D9AE /* AppDelegate.swift in Sources */,
+				A680E3CD1F68DDEF001BAD07 /* ButtonDesign.swift in Sources */,
 				A6696EF01F5F4BBB0056D9AE /* LofiViewController.swift in Sources */,
 				A6696EF21F5F4BC60056D9AE /* ClassicViewController.swift in Sources */,
 			);
