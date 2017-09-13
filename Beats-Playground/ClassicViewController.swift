@@ -52,6 +52,8 @@ class ClassicViewController: UIViewController {
     }
     
     
+    @IBAction func classicBeatPadSnare(_ sender: UIButton) {
+    }
 
     
         
