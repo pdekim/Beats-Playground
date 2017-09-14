@@ -116,8 +116,8 @@ class ClassicViewController: UIViewController {
         performSegue(withIdentifier: "goToHomeFromClassic", sender: self)
     }
     
-
     @IBAction func classicBeatPadBass(_ sender: BeatPadDesign) {
+        
         if sender.tag == 1
         {
             bass1.play()
@@ -130,7 +130,9 @@ class ClassicViewController: UIViewController {
         {
             bass3.play()
         }
+
     }
+
     
     
     @IBAction func classicBeatPadSnare(_ sender: BeatPadDesign) {
