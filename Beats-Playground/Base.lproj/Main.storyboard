@@ -319,6 +319,9 @@
                                         <real key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="classicBeatPadCrash:" destination="9qF-Sb-fXn" eventType="touchUpInside" id="Hwc-JO-t8J"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="8" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DfW-8F-r3P" userLabel="Crash2" customClass="BeatPadDesign" customModule="Beats_Playground" customModuleProvider="target">
                                 <rect key="frame" x="137" y="229" width="100" height="100"/>
@@ -330,6 +333,9 @@
                                         <real key="value" value="2"/>
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="classicBeatPadCrash:" destination="9qF-Sb-fXn" eventType="touchUpInside" id="QKB-WN-9Bs"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="7" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ykl-RV-Unj" userLabel="Crash1" customClass="BeatPadDesign" customModule="Beats_Playground" customModuleProvider="target">
                                 <rect key="frame" x="29" y="229" width="100" height="100"/>

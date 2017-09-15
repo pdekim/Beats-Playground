@@ -11,12 +11,25 @@ import AVFoundation
 
 class ClassicViewController: UIViewController {
     
+    // bass
     var bass1: AVAudioPlayer = AVAudioPlayer()
     var bass2: AVAudioPlayer = AVAudioPlayer()
     var bass3: AVAudioPlayer = AVAudioPlayer()
+    
+    // snare
     var snare1: AVAudioPlayer = AVAudioPlayer()
     var snare2: AVAudioPlayer = AVAudioPlayer()
     var snare3: AVAudioPlayer = AVAudioPlayer()
+    
+    // highhat
+    var highHat1: AVAudioPlayer = AVAudioPlayer()
+    var highHat2: AVAudioPlayer = AVAudioPlayer()
+    var highHat3: AVAudioPlayer = AVAudioPlayer()
+    
+    // crash
+    var crash1: AVAudioPlayer = AVAudioPlayer()
+    var crash2: AVAudioPlayer = AVAudioPlayer()
+    var crash3: AVAudioPlayer = AVAudioPlayer()
     
     
     @IBOutlet weak var ClassicBackgroundImage: UIImageView!
@@ -31,10 +44,20 @@ class ClassicViewController: UIViewController {
         
         let bass1File = Bundle.main.path(forResource: "Bass1", ofType: "mp3")
         let bass2File = Bundle.main.path(forResource: "Bass2", ofType: "mp3")
-        let bass3File = Bundle.main.path(forResource: "Bass2", ofType: "mp3")
+        let bass3File = Bundle.main.path(forResource: "Bass3", ofType: "mp3")
+        
         let snare1File = Bundle.main.path(forResource: "Snare1", ofType: "mp3")
         let snare2File = Bundle.main.path(forResource: "Snare2", ofType: "mp3")
-        let snare3File = Bundle.main.path(forResource: "Snare2", ofType: "mp3")
+        let snare3File = Bundle.main.path(forResource: "Snare3", ofType: "mp3")
+        
+        let highHat1File = Bundle.main.path(forResource: "Highhat1", ofType: "mp3")
+        let highHat2File = Bundle.main.path(forResource: "Highhat2", ofType: "mp3")
+        let highHat3File = Bundle.main.path(forResource: "Highhat3", ofType: "mp3")
+        
+        let crash1File = Bundle.main.path(forResource: "Crash1", ofType: "mp3")
+        let crash2File = Bundle.main.path(forResource: "Crash2", ofType: "mp3")
+        let crash3File = Bundle.main.path(forResource: "Crash3", ofType: "mp3")
+        
         
         do {
             
@@ -101,16 +124,83 @@ class ClassicViewController: UIViewController {
             print(error)
             
         }
-
+        
+        do {
+            
+            try highHat1 = AVAudioPlayer(contentsOf: URL(fileURLWithPath: highHat1File!))
+            
+        }
+        catch {
+            
+            print(error)
+            
+        }
+        
+        do {
+            
+            try highHat2 = AVAudioPlayer(contentsOf: URL(fileURLWithPath: highHat2File!))
+            
+        }
+        catch {
+            
+            print(error)
+            
+        }
+        
+        do {
+            
+            try highHat3 = AVAudioPlayer(contentsOf: URL(fileURLWithPath: highHat3File!))
+            
+        }
+        catch {
+            
+            print(error)
+            
+        }
+        
+        do {
+            
+            try crash1 = AVAudioPlayer(contentsOf: URL(fileURLWithPath: crash1File!))
+            
+        }
+        catch {
+            
+            print(error)
+            
+        }
+        
+        do {
+            
+            try crash2 = AVAudioPlayer(contentsOf: URL(fileURLWithPath: crash2File!))
+            
+        }
+        catch {
+            
+            print(error)
+            
+        }
+        
+        do {
+            
+            try crash3 = AVAudioPlayer(contentsOf: URL(fileURLWithPath: crash3File!))
+            
+        }
+        catch {
+            
+            print(error)
+            
+        }
 
         
         
     }
     
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     
     @IBAction func buttonBackHomeFromClassic(_ sender: Any) {
         performSegue(withIdentifier: "goToHomeFromClassic", sender: self)
@@ -153,37 +243,37 @@ class ClassicViewController: UIViewController {
     }
     
     
-    @IBAction func classicBeatPadCrash(_ sender: UIButton) {
+    @IBAction func classicBeatPadCrash(_ sender: BeatPadDesign) {
         
         if sender.tag == 7
         {
-            
+            crash1.play()
         }
         if sender.tag == 8
         {
-            
+            crash2.play()
         }
         if sender.tag == 9
         {
-            
+            crash3.play()
         }
     }
     
     
     
-    @IBAction func classicBeatPadOther(_ sender: UIButton) {
+    @IBAction func classicBeatPadOther(_ sender: BeatPadDesign) {
         
         if sender.tag == 10
         {
-            
+            highHat1.play()
         }
         if sender.tag == 11
         {
-            
+            highHat2.play()
         }
         if sender.tag == 12
         {
-            
+            highHat3.play()
         }
     }
     
