@@ -394,7 +394,7 @@
                                 </connections>
                             </button>
                             <slider opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="70L-DP-el9">
-                                <rect key="frame" x="101" y="589" width="174" height="31"/>
+                                <rect key="frame" x="28" y="589" width="320" height="31"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </slider>
                         </subviews>
@@ -407,7 +407,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uhn-TL-5lP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1066" y="124"/>
+            <point key="canvasLocation" x="1064.8" y="123.68815592203899"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>

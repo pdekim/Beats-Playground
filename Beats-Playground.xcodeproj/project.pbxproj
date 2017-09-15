@@ -165,6 +165,7 @@
 		A680E3A21F68CB57001BAD07 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				A6CF8CAB1F6B704C0077A965 /* Lofi */,
 				A680E3BF1F68CC7D001BAD07 /* Classic */,
 			);
 			name = Sounds;
@@ -205,6 +206,13 @@
 			);
 			name = IBDesignables;
 			path = "Beats-Playground";
+			sourceTree = "<group>";
+		};
+		A6CF8CAB1F6B704C0077A965 /* Lofi */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Lofi;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

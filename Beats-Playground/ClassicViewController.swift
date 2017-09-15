@@ -208,16 +208,22 @@ class ClassicViewController: UIViewController {
     
     @IBAction func classicBeatPadBass(_ sender: BeatPadDesign) {
         
+        // checks to see which button (through tag) is pressed
+        // current time set to 0 whenever clicked
+        
         if sender.tag == 1
         {
+            bass1.currentTime = 0
             bass1.play()
         }
         if sender.tag == 2
         {
+            bass2.currentTime = 0
             bass2.play()
         }
         if sender.tag == 3
         {
+            bass3.currentTime = 0
             bass3.play()
         }
 
@@ -229,14 +235,17 @@ class ClassicViewController: UIViewController {
     
         if sender.tag == 4
         {
+            snare1.currentTime = 0
             snare1.play()
         }
         if sender.tag == 5
         {
+            snare2.currentTime = 0
             snare2.play()
         }
         if sender.tag == 6
         {
+            snare3.currentTime = 0
             snare3.play()
         }
 
@@ -247,14 +256,17 @@ class ClassicViewController: UIViewController {
         
         if sender.tag == 7
         {
+            crash1.currentTime = 0
             crash1.play()
         }
         if sender.tag == 8
         {
+            crash2.currentTime = 0
             crash2.play()
         }
         if sender.tag == 9
         {
+            crash3.currentTime = 0
             crash3.play()
         }
     }
@@ -265,14 +277,17 @@ class ClassicViewController: UIViewController {
         
         if sender.tag == 10
         {
+            highHat1.currentTime = 0
             highHat1.play()
         }
         if sender.tag == 11
         {
+            highHat2.currentTime = 0
             highHat2.play()
         }
         if sender.tag == 12
         {
+            highHat3.currentTime = 0
             highHat3.play()
         }
     }
