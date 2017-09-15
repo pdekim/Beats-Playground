@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A60F2F1C1F6C444C005D0D65 /* Kick3.wav in Resources */ = {isa = PBXBuildFile; fileRef = A60F2F191F6C444C005D0D65 /* Kick3.wav */; };
+		A60F2F231F6C4469005D0D65 /* Kick2.wav in Resources */ = {isa = PBXBuildFile; fileRef = A60F2F201F6C4469005D0D65 /* Kick2.wav */; };
+		A60F2F2D1F6C4488005D0D65 /* Kick1.wav in Resources */ = {isa = PBXBuildFile; fileRef = A60F2F271F6C4488005D0D65 /* Kick1.wav */; };
+		A60F2F361F6C44D7005D0D65 /* Hat1.wav in Resources */ = {isa = PBXBuildFile; fileRef = A60F2F301F6C44D7005D0D65 /* Hat1.wav */; };
+		A60F2F381F6C44D7005D0D65 /* Hat2.wav in Resources */ = {isa = PBXBuildFile; fileRef = A60F2F321F6C44D7005D0D65 /* Hat2.wav */; };
+		A60F2F3A1F6C44D7005D0D65 /* Hat3.wav in Resources */ = {isa = PBXBuildFile; fileRef = A60F2F341F6C44D7005D0D65 /* Hat3.wav */; };
+		A60F2F3F1F6C4523005D0D65 /* Perc2.wav in Resources */ = {isa = PBXBuildFile; fileRef = A60F2F3C1F6C4523005D0D65 /* Perc2.wav */; };
+		A60F2F411F6C4523005D0D65 /* Perc3.wav in Resources */ = {isa = PBXBuildFile; fileRef = A60F2F3E1F6C4523005D0D65 /* Perc3.wav */; };
+		A60F2F491F6C4565005D0D65 /* Perc1.wav in Resources */ = {isa = PBXBuildFile; fileRef = A60F2F481F6C4565005D0D65 /* Perc1.wav */; };
+		A60F2F501F6C45DA005D0D65 /* Snare6.wav in Resources */ = {isa = PBXBuildFile; fileRef = A60F2F4A1F6C45DA005D0D65 /* Snare6.wav */; };
+		A60F2F531F6C45DA005D0D65 /* Snare7.wav in Resources */ = {isa = PBXBuildFile; fileRef = A60F2F4D1F6C45DA005D0D65 /* Snare7.wav */; };
+		A60F2F551F6C45DA005D0D65 /* Snare8.wav in Resources */ = {isa = PBXBuildFile; fileRef = A60F2F4F1F6C45DA005D0D65 /* Snare8.wav */; };
 		A6696EC21F5F43920056D9AE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6696EC11F5F43920056D9AE /* AppDelegate.swift */; };
 		A6696EC41F5F43920056D9AE /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6696EC31F5F43920056D9AE /* MainViewController.swift */; };
 		A6696EC71F5F43920056D9AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6696EC51F5F43920056D9AE /* Main.storyboard */; };
@@ -51,6 +63,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A60F2F191F6C444C005D0D65 /* Kick3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Kick3.wav; sourceTree = "<group>"; };
+		A60F2F201F6C4469005D0D65 /* Kick2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Kick2.wav; sourceTree = "<group>"; };
+		A60F2F271F6C4488005D0D65 /* Kick1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Kick1.wav; sourceTree = "<group>"; };
+		A60F2F301F6C44D7005D0D65 /* Hat1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Hat1.wav; sourceTree = "<group>"; };
+		A60F2F321F6C44D7005D0D65 /* Hat2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Hat2.wav; sourceTree = "<group>"; };
+		A60F2F341F6C44D7005D0D65 /* Hat3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Hat3.wav; sourceTree = "<group>"; };
+		A60F2F3C1F6C4523005D0D65 /* Perc2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Perc2.wav; sourceTree = "<group>"; };
+		A60F2F3E1F6C4523005D0D65 /* Perc3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Perc3.wav; sourceTree = "<group>"; };
+		A60F2F481F6C4565005D0D65 /* Perc1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Perc1.wav; sourceTree = "<group>"; };
+		A60F2F4A1F6C45DA005D0D65 /* Snare6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Snare6.wav; sourceTree = "<group>"; };
+		A60F2F4D1F6C45DA005D0D65 /* Snare7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Snare7.wav; sourceTree = "<group>"; };
+		A60F2F4F1F6C45DA005D0D65 /* Snare8.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Snare8.wav; sourceTree = "<group>"; };
 		A6696EBE1F5F43920056D9AE /* Beats-Playground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Beats-Playground.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6696EC11F5F43920056D9AE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A6696EC31F5F43920056D9AE /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -214,6 +238,18 @@
 		A6CF8CAB1F6B704C0077A965 /* Lofi */ = {
 			isa = PBXGroup;
 			children = (
+				A60F2F4A1F6C45DA005D0D65 /* Snare6.wav */,
+				A60F2F4D1F6C45DA005D0D65 /* Snare7.wav */,
+				A60F2F4F1F6C45DA005D0D65 /* Snare8.wav */,
+				A60F2F481F6C4565005D0D65 /* Perc1.wav */,
+				A60F2F3C1F6C4523005D0D65 /* Perc2.wav */,
+				A60F2F3E1F6C4523005D0D65 /* Perc3.wav */,
+				A60F2F301F6C44D7005D0D65 /* Hat1.wav */,
+				A60F2F321F6C44D7005D0D65 /* Hat2.wav */,
+				A60F2F341F6C44D7005D0D65 /* Hat3.wav */,
+				A60F2F271F6C4488005D0D65 /* Kick1.wav */,
+				A60F2F201F6C4469005D0D65 /* Kick2.wav */,
+				A60F2F191F6C444C005D0D65 /* Kick3.wav */,
 			);
 			name = Lofi;
 			sourceTree = "<group>";
@@ -331,17 +367,29 @@
 				A680E3BD1F68CBEA001BAD07 /* Snare1.mp3 in Resources */,
 				A6696ECC1F5F43920056D9AE /* LaunchScreen.storyboard in Resources */,
 				A680E3C31F68CD2A001BAD07 /* Crash2.mp3 in Resources */,
+				A60F2F3A1F6C44D7005D0D65 /* Hat3.wav in Resources */,
+				A60F2F361F6C44D7005D0D65 /* Hat1.wav in Resources */,
+				A60F2F231F6C4469005D0D65 /* Kick2.wav in Resources */,
 				A680E3B71F68CBEA001BAD07 /* Crash1.mp3 in Resources */,
+				A60F2F491F6C4565005D0D65 /* Perc1.wav in Resources */,
+				A60F2F3F1F6C4523005D0D65 /* Perc2.wav in Resources */,
 				A680E3BA1F68CBEA001BAD07 /* Highhat2.mp3 in Resources */,
 				A6696EC91F5F43920056D9AE /* Assets.xcassets in Resources */,
 				A680E3C51F68CD96001BAD07 /* Snare2.mp3 in Resources */,
+				A60F2F501F6C45DA005D0D65 /* Snare6.wav in Resources */,
 				A680E3C11F68CD24001BAD07 /* Crash3.mp3 in Resources */,
 				A6CF8CA81F6B6BFE0077A965 /* Highhat3.mp3 in Resources */,
+				A60F2F1C1F6C444C005D0D65 /* Kick3.wav in Resources */,
 				A680E3A41F68CBB4001BAD07 /* Bass2.mp3 in Resources */,
 				A6696EC71F5F43920056D9AE /* Main.storyboard in Resources */,
 				A6CF8CAD1F6B752C0077A965 /* MainMenuSound.mp3 in Resources */,
+				A60F2F411F6C4523005D0D65 /* Perc3.wav in Resources */,
+				A60F2F551F6C45DA005D0D65 /* Snare8.wav in Resources */,
+				A60F2F381F6C44D7005D0D65 /* Hat2.wav in Resources */,
 				A6CF8CAA1F6B6C030077A965 /* Snare3.mp3 in Resources */,
+				A60F2F531F6C45DA005D0D65 /* Snare7.wav in Resources */,
 				A680E3C71F68CEAE001BAD07 /* Bass1.mp3 in Resources */,
+				A60F2F2D1F6C4488005D0D65 /* Kick1.wav in Resources */,
 				A680E3B41F68CBEA001BAD07 /* Highhat1.mp3 in Resources */,
 				A6CF8CA61F6B6AFF0077A965 /* Bass3.mp3 in Resources */,
 			);
