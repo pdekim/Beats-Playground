@@ -22,8 +22,7 @@ class MainViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        
-        MainBackgroundImage.image = #imageLiteral(resourceName: "MainBackground")
+        MainBackgroundImage.image = #imageLiteral(resourceName: "MainBackground2")
         
         let mainMenuDrumBeatFile = Bundle.main.path(forResource: "MainMenuSound", ofType: "mp3")
         

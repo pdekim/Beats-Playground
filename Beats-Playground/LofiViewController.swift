@@ -18,7 +18,7 @@ class LofiViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        LofiBackgroundImage.image = #imageLiteral(resourceName: "MainBackground")
+        LofiBackgroundImage.image = #imageLiteral(resourceName: "Background2")
         
 
     }

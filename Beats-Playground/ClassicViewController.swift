@@ -39,7 +39,7 @@ class ClassicViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        ClassicBackgroundImage.image = #imageLiteral(resourceName: "MainBackground")
+        ClassicBackgroundImage.image = #imageLiteral(resourceName: "Background1")
         
         
         let bass1File = Bundle.main.path(forResource: "Bass1", ofType: "mp3")
