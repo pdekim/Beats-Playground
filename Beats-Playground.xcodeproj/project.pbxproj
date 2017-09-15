@@ -30,6 +30,7 @@
 		A6CF8CA61F6B6AFF0077A965 /* Bass3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6CF8CA51F6B6AFF0077A965 /* Bass3.mp3 */; };
 		A6CF8CA81F6B6BFE0077A965 /* Highhat3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6CF8CA71F6B6BFE0077A965 /* Highhat3.mp3 */; };
 		A6CF8CAA1F6B6C030077A965 /* Snare3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6CF8CA91F6B6C030077A965 /* Snare3.mp3 */; };
+		A6CF8CAD1F6B752C0077A965 /* MainMenuSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A6CF8CAC1F6B752C0077A965 /* MainMenuSound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +80,7 @@
 		A6CF8CA51F6B6AFF0077A965 /* Bass3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Bass3.mp3; sourceTree = "<group>"; };
 		A6CF8CA71F6B6BFE0077A965 /* Highhat3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Highhat3.mp3; sourceTree = "<group>"; };
 		A6CF8CA91F6B6C030077A965 /* Snare3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Snare3.mp3; sourceTree = "<group>"; };
+		A6CF8CAC1F6B752C0077A965 /* MainMenuSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MainMenuSound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -165,6 +167,7 @@
 		A680E3A21F68CB57001BAD07 /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				A6CF8CAC1F6B752C0077A965 /* MainMenuSound.mp3 */,
 				A6CF8CAB1F6B704C0077A965 /* Lofi */,
 				A680E3BF1F68CC7D001BAD07 /* Classic */,
 			);
@@ -336,6 +339,7 @@
 				A6CF8CA81F6B6BFE0077A965 /* Highhat3.mp3 in Resources */,
 				A680E3A41F68CBB4001BAD07 /* Bass2.mp3 in Resources */,
 				A6696EC71F5F43920056D9AE /* Main.storyboard in Resources */,
+				A6CF8CAD1F6B752C0077A965 /* MainMenuSound.mp3 in Resources */,
 				A6CF8CAA1F6B6C030077A965 /* Snare3.mp3 in Resources */,
 				A680E3C71F68CEAE001BAD07 /* Bass1.mp3 in Resources */,
 				A680E3B41F68CBEA001BAD07 /* Highhat1.mp3 in Resources */,

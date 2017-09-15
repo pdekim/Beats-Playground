@@ -11,7 +11,9 @@ import AVFoundation
 
 class MainViewController: UIViewController {
     
-    var audioPlayer = AVAudioPlayer()
+    var mainMenuDrumBeat: AVAudioPlayer = AVAudioPlayer()
+    
+    var x: Int = 0;
     
     
     @IBOutlet weak var MainBackgroundImage: UIImageView!
@@ -22,6 +24,24 @@ class MainViewController: UIViewController {
         
         
         MainBackgroundImage.image = #imageLiteral(resourceName: "MainBackground")
+        
+        let mainMenuDrumBeatFile = Bundle.main.path(forResource: "MainMenuSound", ofType: "mp3")
+        
+        do {
+            
+            try mainMenuDrumBeat = AVAudioPlayer(contentsOf: URL(fileURLWithPath: mainMenuDrumBeatFile!))
+            
+        }
+        catch {
+            
+            print(error)
+            
+        }
+        
+        // loops menu music
+        mainMenuDrumBeat.numberOfLoops = -1
+        mainMenuDrumBeat.play()
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -30,11 +50,13 @@ class MainViewController: UIViewController {
     }
     
     @IBAction func buttonSegueToClassic(_ sender: Any) {
+        mainMenuDrumBeat.stop()
         performSegue(withIdentifier: "goToClassicViewController", sender: self)
     }
     
     
     @IBAction func buttonSegueToLofi(_ sender: Any) {
+        mainMenuDrumBeat.stop()
         performSegue(withIdentifier: "goToLofiViewController", sender: self)
     }
 
